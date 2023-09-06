@@ -1,0 +1,128 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 350px;
+  height: 400px;
+  background-color: hsl(213, 19%, 18%);
+  margin: 80px auto;
+  border-radius: 15px;
+}
+
+#inner-container {
+  display: block;
+  padding: 28px;
+}
+
+.star-icon {
+  padding: 10px;
+  background-color: hsl(215, 21%, 23%);
+  border-radius: 50%;
+  display: inline;
+}
+
+.error-message {
+  display: inline;
+  margin-left: 30px;
+  color: red;
+}
+
+.question {
+  color: white;
+}
+
+.rating-par {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.star {
+  padding: 14px 18px;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(215, 21%, 23%);
+  color: hsl(217, 12%, 63%);
+  cursor: pointer;
+}
+
+.star:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  transition: 0.5s;
+}
+
+.star:focus-within {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.star-container {
+  display: flex;
+  gap: 19px;
+  width: 300px;
+}
+
+#submit-btn {
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  width: 100%;
+  padding: 15px 40px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  transition: 0.5s;
+}
+
+#inner-container-2 {
+  display: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.thanks-image {
+  height: 100px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.rating-result {
+  width: 170px;
+  height: 20px;
+  display: inline-block;
+  padding: 7px 15px;
+  background-color: hsl(215, 21%, 23%);
+  color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.thanks {
+  color: white;
+  margin: 0;
+}
+
+.apprec-message {
+  color: hsl(217, 12%, 63%);
+  line-height: 25px;
+}
+
+a {
+  display: block;
+  color: white;
+  margin-top: -50px;
+  text-align: center;
+}
